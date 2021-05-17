@@ -1,0 +1,76 @@
+.Master-Container {
+  height: 700px;
+  width: 360px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#Select-Container {
+  text-align: center;
+}
+
+.topDiv {
+  height: 50%;
+  background: url("/assets/Background Pattern.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.bottomDiv {
+  background-color: #ec0050;
+  height: 50.1%;
+  margin-left: -1px;
+}
+
+#ListOfPlayer {
+  padding: 15px;
+  background-color: #eaeaea;
+  border: none;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#statBox {
+  overflow-y: scroll;
+  height: 68%;
+}
+
+.Stat_Attribute {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 3px;
+  padding: 12px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Stat_Value {
+  float: right;
+}
+
+#Image-Container {
+  height: 70%;
+  margin-top: 10.8%;
+  margin-left: 3%;
+}
+
+#name {
+  font-size: 1.6em;
+  margin-left: 20px;
+  color: white;
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+#position {
+  font-size: 1em;
+  margin-left: 20px;
+  color: white;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
