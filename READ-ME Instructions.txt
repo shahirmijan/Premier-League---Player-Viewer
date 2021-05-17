@@ -1,0 +1,42 @@
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Prerequisite:
+
+ - Please ensure that NODE JS is installed, and that you have an empty NODE JS project created. There are many tutorials on this and this is a simple task
+ - Please have Microsoft Visual Code installed
+ - Once, NODE JS is installed if you would like to modify the scss file you will need to install the SASS coomponnet. (OPTIONAL)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Instruction:
+ - Download the files sent and do not move/delete/rename any of the files insides the folder.
+ - Open Microsoft Visual Code and open the folder you have just downloaded
+ - Open a terminal in Microsoft Visual Code and run the command "python - m http.server" to start a light server
+ - When the terminal runs, look out the for the port number, it will look like this on the terminal "Serving HTTP on :: port #THE_NUMBER_WILL_BE_WRITTEN_HERE"
+ - The port number is usually 8000 but can be different for you. 
+ - Once you have the port number, type in the URL "http://localhost:TYPE_PORT_NUMBER_HERE/PlayerStatViewer.html" into a browser
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Short-Summary:
+
+ - The way I have made this program work is that, I simply fetched the JSON file, and stored all the information as a global 
+   array so that I have a local copy of all the data to access and display.
+
+ - I then clear any pre-populated data and dynamically create HTML elements to house the relevant data for each player
+
+ - Upon selecting a player, a series of functions are called with for-loops and if-statements validating the player chosen in order
+   to display their attributes accordingly.
+
+ - A large chunck of the data and HTML being displayed works dynamically as this gives the most flexibility for future proofing in case the JSON file
+   increases with more player and avoids any information from duplicating and appending into the HTML 
+    
+
+
