@@ -16,7 +16,7 @@ Additionally, this application dynamically creates HTML as the user choose a par
  - Once you have the port number, type in the URL "http://localhost:TYPE_PORT_NUMBER_HERE/PlayerStatViewer.html" into a browser
 
 # Tool / Languages / Framworks used:
-- JavaScript
+- Javascript
 - HTML
 - CSS (SASS)
 - Node JS
