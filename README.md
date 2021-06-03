@@ -10,7 +10,7 @@ Additionally, this application dynamically creates HTML as the user choose a par
  #Instruction:
  - Download the files sent and do not move/delete/rename any of the files insides the folder.
  - Open Microsoft Visual Code and open the folder you have just downloaded
- - Open a terminal in Microsoft Visual Code and run the command "python - m http.server" to start a light server
+ - Open a terminal in Microsoft Visual Code and run the command "python -m http.server" to start a light server
  - When the terminal runs, look out the for the port number, it will look like this on the terminal "Serving HTTP on :: port #THE_NUMBER_WILL_BE_WRITTEN_HERE"
  - The port number is usually 8000 but can be different for you. 
  - Once you have the port number, type in the URL "http://localhost:TYPE_PORT_NUMBER_HERE/PlayerStatViewer.html" into a browser
