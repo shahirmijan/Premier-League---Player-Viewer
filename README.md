@@ -1,5 +1,5 @@
 # Premier-League-Player-Viewer
-This application is about taking a JSON file and dynamically retrieving players stats and information and displaying it when the user chooses a particular player.
+This application is about taking a JSON file and dynamically retrieving players stats and information and displaying it by manipulating the DOM when the user chooses a particular player.
 Additionally, this application dynamically creates HTML as the user choose a particular player. 
 
 # Prerequisite:
@@ -22,3 +22,4 @@ Additionally, this application dynamically creates HTML as the user choose a par
 - Node JS
 - Microsoft Visual Code
 - JSON
+- DOM Manipulation
